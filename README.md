@@ -200,9 +200,13 @@ var styles = StyleSheet.create({
 module.exports = Component;
 
 ```
-![alt tag](https://github.com/hongyin163/react-native-chart-android/blob/master/sample/chart1.JPG)
+![alt tag](https://github.com/dovandu/react-native-chart-android/blob/master/screenshort/device-2018-10-17-101108.png)
 
-![alt tag](https://github.com/hongyin163/react-native-chart-android/blob/master/sample/chart2.JPG)
+![alt tag](https://github.com/dovandu/react-native-chart-android/blob/master/screenshort/device-2018-10-17-101130.png)
+
+![alt tag](https://github.com/dovandu/react-native-chart-android/blob/master/screenshort/device-2018-10-17-101226.png)
+
+![alt tag](https://github.com/dovandu/react-native-chart-android/blob/master/screenshort/device-2018-10-17-101239.png)
 
 There are some samples in sample folder,you can download them and try to run them.
 ## License
