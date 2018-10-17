@@ -1,26 +1,24 @@
 {
-  "name": "react-native-chart-android",
-  "version": "1.0.8",
-  "description": "react-native-mpchart provide modules to add chart to android,all charts are come from mpandroidchart library.",
-  "main": "index.js",
+  "name": "appname",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hongyin163/react-native-chart-android.git"
-  },
-  "keywords": [
-    "chart",
-    "mpandroidchart"
-  ],
-  "author": "hongyin163",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hongyin163/react-native-chart-android/issues"
-  },
-  "homepage": "https://github.com/hongyin163/react-native-chart-android#readme",
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.55.2",
+    "react-native-deprecated-custom-components": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

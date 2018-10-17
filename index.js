@@ -1,17 +1,8 @@
-import BarChart from './BarChart';
-import HorizontalBarChart from './HorizontalBarChart';
-import LineChart from './LineChart';
-import CandleStickChart from './CandleStickChart';
-import CombinedChart from './CombinedChart';
-import PieChart from './PieChart';
-import RadarChart from './RadarChart';
+/** @format */
 
-export {
-  BarChart,
-  HorizontalBarChart,
-  LineChart,
-  CandleStickChart,
-  CombinedChart,
-  PieChart,
-  RadarChart
-}
+import {AppRegistry} from 'react-native';
+//import App from './App';
+import App from './src/components/Index'
+import {name as appName} from './app.json';
+
+AppRegistry.registerComponent(appName, () => App);
